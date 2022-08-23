@@ -1,0 +1,52 @@
+.section__banner{
+    max-height: 38vh;
+}
+.banner{
+    background-image: url("../image/BANNER\ -\ IMAGE\ -\ MOBILE.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.principal__banner{
+    font-size: 30px;
+    font-weight: 300;
+}
+.subtitulo__banner{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--cinza-secundario);
+    margin-bottom: 15vh;
+}
+.ancora__banner{
+    text-decoration: none;
+    background-color: var(--cor-footer);
+    color: var(--branco);
+    padding: 0 1em;
+    font-size: 16px;
+    font-weight: 300;
+}
+@media screen and (min-width: 1240px){
+    .banner{
+        background-image: url("../image/Banner.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: left;
+    }
+    .principal__banner{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .subtitulo__banner{
+        font-size: 30px;
+        margin-bottom: 0.5em;
+    }
+    .titulo__banner{
+        padding: 8em 8em 0 8em ;
+    }
+    .ancora__banner{
+        padding: 1em 4em;
+        background-color: var(--cor-botao-verde);
+    }
+}

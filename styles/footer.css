@@ -1,0 +1,203 @@
+footer{
+    background-color: var(--cor-footer);
+    height: 600px;
+    padding: 1em;
+    max-width: 100vw;
+}
+.caixa__footer{
+    border: solid var(--branco);
+    width: 90vw;
+    height: 500px;
+    margin-top: 1em;
+    text-align: center;
+    padding-top: 1em;  
+}
+.primeiro__paragrafo-footer{
+    color: var(--branco);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer__email{
+    width: 50vw;
+    height: 2em;
+}
+.footer__submit{
+    height: 2.3em;
+    background-color: var(--cinza-submit);
+    color: var(--branco);
+    border: transparent;
+    width: 30vw;
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
+.subtitulo__footer{
+    margin: 1em;
+    color: var(--branco);
+    font-weight: 400;
+}
+.img__portfolio-footer{
+    width: 120px;
+    margin: 0.2em;
+}
+.li{
+    border: solid var(--branco) ;
+    list-style: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    color: var(--branco);
+    height: 3em;
+}
+.li.sobre{
+    border: solid var(--branco);
+    border-top: none;
+    width: 90vw;
+    margin-left: -3px;
+}
+.menu{
+    margin-bottom:1.2em;
+}
+.Menu__footer{
+    display: none;
+}
+@media screen and (min-width: 1240px){
+    footer{
+        background-color: var(--cor-footer);
+        height: 430px;
+        padding: 1em;
+        max-width: 100vw;
+    }
+    .caixa__footer{
+        border: solid var(--branco);
+        width: 50vw;
+        height: 350px;
+        margin-top: 1em;
+        text-align: center;
+        padding-top: 1em;  
+        display: inline-block;
+        position: relative;
+    }
+    .caixa__footer-right{
+        display: inline-block;
+        position: absolute;
+        top: -18px;
+        left: 100%;
+        border: solid var(--branco);
+        width: 45vw;
+        height: 350px;
+        margin-top: 1em;
+        text-align: center;
+        padding-top: 1em;
+    }
+    .primeiro__paragrafo-footer{
+        text-align: left;
+        color: var(--branco);
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .footer__email{
+        width: 30vw;
+        height: 2.7em;
+    }
+    .footer__submit{
+        height: 2.3em;
+        background-color: var(--cinza-submit);
+        color: var(--branco);
+        border: transparent;
+        height: 3em;
+        width: 15vw;
+        padding-left: 0.5em;
+        padding-right: 1em;
+    }
+    .subtitulo__footer{
+        text-align: left;
+        margin: 3em 2em 1em 2em;
+        color: var(--branco);
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .img__portfolio-footer{
+        width: 150px;
+        margin: 0.2em;
+    }
+    .Menu__footer{
+        display: inline-block;
+       
+        width:  400px;
+        height: 400px;
+        color: var(--branco);
+        
+    }
+    .ul__laptop-footer{
+        display: inline-block;
+        list-style: none;
+        text-align: left;
+    }
+    #menu-footer{
+        font-size: 30px;
+        margin: 0px 0px 1em -80px;
+        display: inline-block;
+        position: relative;
+    }
+    .item-menu-footer{
+        position: absolute;
+        top: 60px;
+        left: 20px;
+    }
+    .footer_laptop-menu{
+        text-align: left;
+        color: var(--branco);
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .sobre-footer{
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+        display: inline-block;
+    }
+    .ul-sobre-footer{
+        list-style: none;
+        text-align: left;
+        margin-left: 200px;
+    }
+    #sobre-footer{
+        font-size: 30px;
+    }
+    .li-footer{
+        text-decoration: none;
+        color: var(--branco);
+    }
+    .logo__footer-vasta{
+        text-align: center;
+        vertical-align: bottom;
+        margin-top: 150px;
+    }
+    .li{
+        display: none;
+        border: solid var(--branco) ;
+        list-style: none;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        color: var(--branco);
+        height: 3em;
+    }
+    .menu{
+        display: none;
+        margin-bottom: 1em;
+    }
+    .logonone{
+        display: none;
+    }
+    #paragrafo__mobile{
+        display: none;
+    }
+}
+@media screen and (min-width: 1680px){
+    #menu-footer{
+        margin: -220px;
+    }
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasta</title>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container__header">
+            <img src="image/Vasta.png" alt="logo" class="logo__principal">
+            
+        </div>
+        
+        <div class="container__header">
+                <div class="text__laptop">
+                    <a href="#" class="links__header">Sobre</a>
+                    <a href="#" class="links__header">Portfólio</a>
+                    <a href="#" class="links__header">Depoimentos</a>
+                    <a href="#" class="links__header">Contato</a>
+                </div>
+            <img src="image/search-icon.png" alt="search-icon" class="search">
+            <input type="checkbox"  id="menu" class="container__botao">
+
+            <label for="menu">
+                <span class="cabeçalho__menu__hamburguer"></span>
+            </label>
+            <ul class="lista__menu">
+                <li><a href="#" class="links__header">Sobre</a></li>
+                <li><a href="#" class="links__header">Portfólio</a></li>
+                <li><a href="#" class="links__header">Depoimentos</a></li>
+                <li><a href="#" class="links__header">Contato</a></li>
+            </ul>
+        </div>
+    </header> 
+    <main>
+        <section class="section__banner">
+            <div class="banner">
+                <div class="titulo__banner">
+                    <h1 class="principal__banner">TÍTULO BANNER</h1>
+                    <h2 class="subtitulo__banner">SUBTÍTULO BANNER</h2>
+                    <a href="#" class="ancora__banner">Botão Click</a>
+                </div>
+                    
+            </div>
+        </section>
+        <section class="section__sobre">
+            <div>
+                <h2 class="titulo__sobre">SOBRE</h2>
+                <img src="image/IMAGEM 1.jpg" alt="primeira IMAGEM" class="img__sobre">
+                <p class="primeiro__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aperiam, sed debitis voluptas enim suscipit quae a soluta reprehenderit veniam ullam! Esse voluptate consectetur molestiae unde, libero maxime voluptas cumque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda aspernatur odio deleniti! Accusantium facilis sunt deleniti officia minus aspernatur facere delectus. Eaque modi et repudiandae reprehenderit dicta repellendus cumque blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit minus error velit, natus doloremque veritatis quam eos sequi voluptate saepe nostrum magni, corrupti facilis ullam doloribus similique exercitationem odio. <span id="pontos">...</span> <br> <a href="#" class="link__laptop">SAIBA MAIS</a></p>
+                
+            </div>
+                <div class="div__escondido" id="mais">
+                    <p class="texto__escondido">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi nemo exercitationem minus eius tempora consequatur porro veritatis, possimus adipisci vero saepe. Rem odit, eius corporis voluptatem quidem sequi deserunt assumenda! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla consequuntur fugit adipisci harum error, libero amet iste, temporibus illum vero ex nobis mollitia molestias id ea, sit cumque minus delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolor odio consequuntur sint ut aliquam, impedit optio accusantium eos! Est accusamus perspiciatis recusandae unde ratione tenetur consectetur qui ullam iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae totam, reprehenderit iure, error nam quidem molestias deleniti in eligendi cumque ratione quia perspiciatis, libero at quas sequi dolorem tempora ea!</p>
+                    <img src="image/IMAGEM 2.jpg" alt="" class="img__escondida">
+                </div>
+            <div class="titulo__click" id="area" >
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia mais</h2> <br> <img src="image/seta.png" alt=""></button>
+            </div>
+        </section>
+        
+        <section>
+            <div class="portfolio">
+                <h2 class="portfolio__titulo">Portfólio</h2>
+                <img src="image/portfolio-imagem-1.jpg" alt="" class="img__portfolio" >
+                <img src="image/portfolio-imagem-2.jpg" alt="" class="img__portfolio" >
+                <img src="image/portfolio-imagem-3.jpg" alt="" class="img__portfolio" id="img__3-4">
+                <img src="image/portfolio-imagem-4.jpg" alt="" class="img__portfolio" id="img__3-4">
+
+                <img src="image/portfolio-imagem-1.jpg" alt="" class="imagem__escondida" >
+                <img src="image/portfolio-imagem-2.jpg" alt="" class="imagem__escondida" >
+                <img src="image/portfolio-imagem-3.jpg" alt="" class="imagem__escondida " id="img__3-4">
+                <br>
+                <img src="image/portfolio-imagem-4.jpg" alt="" class="imagem__escondida" id="img__3-4">
+                <img src="image/portfolio-imagem-5.jpg" alt="" class="imagem__escondida">
+                <img src="image/portfolio-imagem-6.jpg" alt="" class="imagem__escondida">
+                <br>
+                <a href="#" class="ancora__portfolio">CARREGAR MAIS PROJETOS</a>
+            </div>
+        </section>
+        <section>
+            <div class="depoimentos">
+                <h2 class="titulo__depoimentos">Depoimentos</h2>
+            </div>
+                    
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="image/icone usuario.png" alt="" class="img__carrosel" id="primeiro__img-carrosel"> <p class="paragrafo_carrosel" id="primeiro__p-carrosel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est deleniti quas architecto dolore adipisci fugit voluptatibus nobis! Cum, minus vero numquam tempore alias repellendus, non veritatis exercitationem autem fuga quibusdam?</p></div>
+                        <div class="swiper-slide"><img src="image/icone usuario azul.png" alt="" class="img__carrosel" id="primeiro__img-carrosel"> <p class="paragrafo_carrosel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est deleniti quas architecto dolore adipisci fugit voluptatibus nobis! Cum, minus vero numquam tempore alias repellendus, non veritatis exercitationem autem fuga quibusdam?</p></div>
+                        <div class="swiper-slide"><img src="image/icone usuario verde.png" alt="" class="img__carrosel"> <p class="paragrafo_carrosel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est deleniti quas architecto dolore adipisci fugit voluptatibus nobis! Cum, minus vero numquam tempore alias repellendus, non veritatis exercitationem autem fuga quibusdam?</p></div>
+                        
+                        </div>
+                        
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+    </div>
+             
+        </section>
+        <section>
+            <div class="contatos">
+                <h2 class="titulo__contatos">contatos</h2>
+                <input type="text" placeholder="Nome" class="input nome">
+                <input type="text" placeholder="Sobrenome" class="input sobrenome">
+                <input type="email" placeholder="Email" class="input email">
+                <input type="number" placeholder="Telefone" class="input telefone" id="telefone__mobile">
+                <textarea name="" id="" cols="30" rows="10" class="mensagem" placeholder="Mensagem"></textarea>
+                <input type="number" placeholder="Telefone" class="input telefone" id="telefone__desktop">
+                <br>
+                <div class="container__paragrafo-submit">
+                    <p class="paragrafo__link-contatos">Todos os dados são guardados de forma segura, saiba mais <a href="#">aqui</a></p>
+                    <input type="submit" class="submit">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="caixa__footer">
+            <img src="image/footer_logo_360x.png" alt="" class="logonone">
+            <p class="primeiro__paragrafo-footer" id="paragrafo__mobile">se increva para receber <br> nossas novidades</p>
+            <p class="primeiro__paragrafo-footer">se increva para receber nossas novidades</p>
+            <input type="email" placeholder="Email" class="footer__email">
+            <input type="submit" value="INSCREVER-SE" class="footer__submit">
+            <h3 class="subtitulo__footer">Portfólio</h3>
+            <a href="#"><img src="image/portfolio-imagem-2.jpg" alt="" class="img__portfolio-footer"></a>
+            <a href="#"><img src="image/portfolio-imagem-3.jpg" alt="" class="img__portfolio-footer"></a>
+            <a href="#"><img src="image/portfolio-imagem-5.jpg" alt="" class="img__portfolio-footer"></a>
+            <a href="#"><img src="image/portfolio-imagem-4.jpg" alt="" class="img__portfolio-footer"></a>
+            <div class="caixa__footer-right">
+                <div class="Menu__footer">
+                    <ul class="ul__laptop-footer">
+                        <li class="footer_laptop-menu" id="menu-footer">MENU</li>
+                        <div class="item-menu-footer">
+                            <li><a href="#" class="footer_laptop-menu">Sobre</a></li>
+                            <li><a href="#" class="footer_laptop-menu">Portfólio</a></li>
+                            <li><a href="#" class="footer_laptop-menu">Depoimentos</a></li>
+                            <li><a href="#" class="footer_laptop-menu">Contato</a></li>
+                        </div>
+                    </ul>
+                    <div class="sobre-footer">
+                        <ul class="ul-sobre-footer">
+                            <li class="li-footer" id="sobre-footer">SOBRE</li>
+                            <li><a href="#" class="li-footer ">Politica de Privacidade</a></li>
+                            <li><a href="#" class="li-footer ">Termos de uso</a></li>
+                        </ul>
+                        <div class="logo__footer-vasta">
+                            <img src="image/footer_logo_360x.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="ul__footer">
+                    <li class="li menu">MENU <br> <img src="image/icone seta branca.png" alt=""></li>
+                    <li class="li sobre">SOBRE <br> <img src="image/icone seta branca.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 50,
+        slidesPerView: 2,
+        pagination: {
+         el: '.swiper-pagination',
+         type: 'bullets',
+            },
+        });  
+        
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

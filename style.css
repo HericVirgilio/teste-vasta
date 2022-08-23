@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/sobre.css);
+@import url(styles/portfolio.css);
+@import url(styles/Depoimentos.css);
+@import url(styles/Contato.css);
+@import url(styles/footer.css);
+:root{
+    --cinza-secundario: #616161;
+    --cor-de-fundo: #EBECEE;
+    --cinza-submit: #545454;
+    --cor-botao-verde: #01B700;
+    --branco: #FFFFFF;
+    --cor-botao-sobre: #487295;
+    --cor-footer: #303030;
+    --preto: black;
+    --fonte-principal: "Poppins";
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    width: 500;
+    background-color: var(--cor-de-fundo);
+}

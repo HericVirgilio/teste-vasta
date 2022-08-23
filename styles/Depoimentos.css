@@ -1,0 +1,52 @@
+.depoimentos{
+    margin: 2em;
+    text-align: center;
+}
+.titulo__depoimentos{
+    font-weight: 300;
+}
+.img__carrosel{
+    margin-left: 20x;
+    margin-right: 0px;
+    
+}
+.paragrafo_carrosel{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    width: 50vw;
+    margin-right: 10px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+.swiper-pagination{
+    position: initial;
+}
+
+@media screen and (min-width: 1240px) {
+    .titulo__depoimentos{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .depoimentos{
+        margin-top: 10em;
+    }
+    .paragrafo_carrosel{
+        font-size: 16px;
+        vertical-align: top;
+        max-width: 30vw;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+    }
+    #primeiro__img-carrosel{
+        margin-left: 50px;
+    }
+    #primeiro__p-carrosel{
+        margin-left: 50px;
+    }
+}
